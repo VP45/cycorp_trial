@@ -43,7 +43,7 @@ export default function Vabout() {
   };
 
   return (
-      <div className="relative w-[100%] max-w-6xl mx-auto my-auto rounded-xl">
+      <div className="relative w-[100%] max-w-6xl mx-auto my-auto rounded-xl outline outline-1 outline-white">
         <div className="absolute top-4 right-4 z-10">
           <VideoPlayerControls
             progress={videoProgress}

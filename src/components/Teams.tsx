@@ -140,7 +140,7 @@ import React from "react";
 
 const Teams = () => {
   return (
-    <div className="container mx-auto flex flex-wrap my-8 justify-center">
+    <div className="container mx-auto flex flex-wrap my-8 justify-center text-white">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
         <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300">
           <Image

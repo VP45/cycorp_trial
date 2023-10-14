@@ -1,13 +1,20 @@
 import React from 'react'
-import Vplay from './Vplay';
+// import Vplay from './Vplay';
 const Hero = () => {
     return (
-        <div className='w-screen h-[calc(100vh-5rem)]'>
-            <div className="bg-cover bg-[url('../../public/CY4.png')] bg-center bg-no-repeat h-full w-full flex items-center justify-center" >
-                <div className='max-w-6xl'>
-                    <Vplay />
-                </div>                
-            </div >
+        <div className='flex items-center justify-center h-screen overflow-hidden'>
+            <video
+    loop
+    autoPlay
+    muted
+    className="w-max h-max object-cover"
+  >
+    <source
+      src="/hero.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
         </div>
     );
 }
