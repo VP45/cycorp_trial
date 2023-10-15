@@ -3,9 +3,8 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <main className="relative flex flex-col h-screen overflow-hidden">
-      
       <div className="flex justify-center h-full">
-      <Navbar />
+        <Navbar />
         <video
           autoPlay
           loop

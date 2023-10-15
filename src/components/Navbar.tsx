@@ -10,8 +10,8 @@ const Navbar = () => {
         setisClick(!isClick)
     }
     return (
-    <nav className='bg-transparent z-20'>
-        <div className='w-[100vw] px-4 sm:px-6 lg:px-8'>
+    <nav className='bg-transparent z-20 w-full'>
+        <div className='w-[100vw] px-4 sm:px-6 lg:px-8 w-full'>
             <div className='flex items-center justify-between h-16'>
                 <div className='flex items-center'>
                     <div className='flex-shrink-0'>
