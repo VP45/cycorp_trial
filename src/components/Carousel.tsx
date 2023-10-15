@@ -4,7 +4,6 @@ import Image from "next/image";
 const ITEM_WIDTH = 250;
 const ITEM_HEIGHT = 300;
 const PADDING_X = 10;
-// props:{imageData:string[]}
 const Carousel = () => {
   const imageData = [
     "https://res.cloudinary.com/dgccztjql/image/upload/v1697285028/products/cycorp/img1_qhqdgx.jpg",

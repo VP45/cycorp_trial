@@ -61,7 +61,7 @@ export default function Carousel({
         </button>
       </div> */}
       <div className="absolute bottom-0 right-0 left-0 hover:bg-black hover:bg-opacity-40">
-        <p className="flex items-center justify-center min-h-screen text-white font-bold text-sm opacity-0 hover:opacity-100">{content}</p>
+        <p className="flex items-center justify-center min-h-screen text-white font-bold text-sm opacity-0 hover:opacity-100 transition duration-500 ease-out hover:ease-in">{content}</p>
         <div className="flex items-center justify-center gap-2 py-4">
           {slides.map((_, i) => (
             <div
