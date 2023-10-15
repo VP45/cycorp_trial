@@ -4,7 +4,7 @@ import Teams from "./Teams";
 
 const About = () => {
   return (
-    <div className="flex flex-col place-items-center justify-between text-center text-white mt-5">
+    <div className="flex flex-col place-items-center justify-between text-center text-white mt-5 px-4">
       <p className="font-semibold">
         <span className="text-red-500">C.Y. CORP LLP</span> is a strategic partnership conceived with a common aim to
         provide consolidated & integrated Liaison (City & Suburb), <br/> Design &

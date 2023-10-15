@@ -142,7 +142,7 @@ const Teams = () => {
   return (
     <div className="container mx-auto flex flex-wrap my-8 justify-center text-white">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300">
+        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300 bg-black bg-opacity-30">
           <Image
             className="w-auto h-100 object-cover"
             src="/MILIND.jpg"
@@ -155,7 +155,7 @@ const Teams = () => {
               Milind Changani
             </div>
             <div className="font-semibold italic text-md text-dark mb-2">
-            Co-Founder & Architect
+              Co-Founder & Architect
             </div>
             <p className="text-dark leading-relaxed font-normal">
               Ar. Milind has more than 18 years of experience in the field of
@@ -192,7 +192,7 @@ const Teams = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300">
+        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300 bg-black bg-opacity-40">
           <Image
             className="w-auto h-100 object-cover"
             src="/yomesh.jpg"
@@ -201,28 +201,48 @@ const Teams = () => {
             height={1000}
           />
           <div className="py-4 px-4">
-            <div className="font-bold text-xl text-dark mb-2">
-            Yomesh Rao
-            </div>
+            <div className="font-bold text-xl text-dark mb-2">Yomesh Rao</div>
             <div className="font-semibold italic text-md text-dark mb-2">
-            Co-Founder & B.E.Civil | L.L.B | L.L.M
+              Co-Founder & B.E.Civil | L.L.B | L.L.M
             </div>
             <p className="text-dark leading-relaxed font-normal">
-            Yomesh has almost 23 years of operational and strategic experience in the real estate and construction industry across India. With a Bachelor’s degree in Civil engineering, he has vast knowledge and experience in technical due diligence, project approvals and clearances throughout the lifecycle of building projects has gained him considerable respect from regulatory authorities.
+              Yomesh has almost 23 years of operational and strategic experience
+              in the real estate and construction industry across India. With a
+              Bachelor’s degree in Civil engineering, he has vast knowledge and
+              experience in technical due diligence, project approvals and
+              clearances throughout the lifecycle of building projects has
+              gained him considerable respect from regulatory authorities.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            Having been head of the department of Regulatory and Liaison in the Raheja Group, He ventured out to start his own consultancy YMS Consultants Limited and is presently Hon. Secretary of PEATA(I).
+              Having been head of the department of Regulatory and Liaison in
+              the Raheja Group, He ventured out to start his own consultancy YMS
+              Consultants Limited and is presently Hon. Secretary of PEATA(I).
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            He is the Chairman of CVSRTA & Member of Institution of Engineers He is a member of the Institution of Valuers, as an approved Valuer for Immovable Property (Bombay/ Mumbai Chapter), India. Though gentle in approach, he has a penchant for getting things done, with the ability to plan, strategize and make quick but correct decisions.
+              He is the Chairman of CVSRTA & Member of Institution of Engineers
+              He is a member of the Institution of Valuers, as an approved
+              Valuer for Immovable Property (Bombay/ Mumbai Chapter), India.
+              Though gentle in approach, he has a penchant for getting things
+              done, with the ability to plan, strategize and make quick but
+              correct decisions.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            He Subsequently Studied Law and is a Law Graduate an LLB and LLM, Masters in Law in Environmental Law. At Present apart from his Consultancy Services , He also Emphasizes on Educating Students and Real Estate Delegates such as Finance Heads, Valuers etc….of the Rules and Regulations and its Interpretation as per Present Practice. He has Given Presentation and Seminars in the PEATA Events, IOV Events, Accommodation Times Seminar and Blue Shift Seminar
-He has also actively interacted as a PEATA(I) Member with MCGM & its various departments for Guidelines and Simplification of Processes. He is a Conciliator appointed by the MahaRERA under section 32G of the MahaRERA Act. He has recently Formed a Law Firm giving Techno Legal Advice to the Needy.
+              He Subsequently Studied Law and is a Law Graduate an LLB and LLM,
+              Masters in Law in Environmental Law. At Present apart from his
+              Consultancy Services , He also Emphasizes on Educating Students
+              and Real Estate Delegates such as Finance Heads, Valuers etc….of
+              the Rules and Regulations and its Interpretation as per Present
+              Practice. He has Given Presentation and Seminars in the PEATA
+              Events, IOV Events, Accommodation Times Seminar and Blue Shift
+              Seminar He has also actively interacted as a PEATA(I) Member with
+              MCGM & its various departments for Guidelines and Simplification
+              of Processes. He is a Conciliator appointed by the MahaRERA under
+              section 32G of the MahaRERA Act. He has recently Formed a Law Firm
+              giving Techno Legal Advice to the Needy.
             </p>
           </div>
         </div>
-        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300">
+        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300 bg-black bg-opacity-40">
           <Image
             className="w-auto h-100 object-cover"
             src="/jasleen.jpg"
@@ -232,23 +252,35 @@ He has also actively interacted as a PEATA(I) Member with MCGM & its various dep
           />
           <div className="py-4 px-4">
             <div className="font-bold text-xl text-dark mb-2">
-            Jasleen Changani
+              Jasleen Changani
             </div>
             <div className="font-semibold italic text-md text-dark mb-2">
-            Co-Founder & Architect
+              Co-Founder & Architect
             </div>
             <p className="text-dark leading-relaxed font-normal">
-            The proprietor and creative head of the company Studio C, with more than 18 years of experience.
+              The proprietor and creative head of the company Studio C, with
+              more than 18 years of experience.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            Bringing a soulful respite to the dry landscape of the current mainstream residential architecture is what she strives for in each project.
-Sustainability, commercially to achieve efficient space planning, selection of construction strategies and blending these with unique design solutions for the end users is key to her approach. Design Challenges of working with tight parameters of space constraints, guidelines of relevant authorities to still create a landmark design for the clients is what she does best. Integrating Green Building design principles with the latest design tools is paramount in her practice.
-She has worked under Master Architects like Geoffrey Bawa, and Anjalendran.
-Her design has won award for “Best Luxury residential project “by CREDAI for Queens Boulevard project at Walkeshwar. She has expertise in Residential redevelopment projects, Villa projects, Commercial projects.
+              Bringing a soulful respite to the dry landscape of the current
+              mainstream residential architecture is what she strives for in
+              each project. Sustainability, commercially to achieve efficient
+              space planning, selection of construction strategies and blending
+              these with unique design solutions for the end users is key to her
+              approach. Design Challenges of working with tight parameters of
+              space constraints, guidelines of relevant authorities to still
+              create a landmark design for the clients is what she does best.
+              Integrating Green Building design principles with the latest
+              design tools is paramount in her practice. She has worked under
+              Master Architects like Geoffrey Bawa, and Anjalendran. Her design
+              has won award for “Best Luxury residential project “by CREDAI for
+              Queens Boulevard project at Walkeshwar. She has expertise in
+              Residential redevelopment projects, Villa projects, Commercial
+              projects.
             </p>
           </div>
         </div>
-        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300">
+        <div className="max-w-xl max-h-full rounded overflow-hidden shadow-lg cursor-pointer card hover:shadow-xl transition duration-300 bg-black bg-opacity-40">
           <Image
             className="w-auto h-100 object-cover"
             src="/danish.jpg"
@@ -257,26 +289,31 @@ Her design has won award for “Best Luxury residential project “by CREDAI for
             height={1000}
           />
           <div className="py-4 px-4">
-            <div className="font-bold text-xl text-dark mb-2">
-            Danish Fakih
-            </div>
+            <div className="font-bold text-xl text-dark mb-2">Danish Fakih</div>
             <div className="font-semibold italic text-md text-dark mb-2">
-            Associate-Partner & Architect
+              Associate-Partner & Architect
             </div>
             <p className="text-dark leading-relaxed font-normal">
-            A Mumbai University graduate with 21+ years of experience in designing a diverse range of medium to large scale interior & architecture projects. 
+              A Mumbai University graduate with 21+ years of experience in
+              designing a diverse range of medium to large scale interior &
+              architecture projects.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            He has worked on & lead the design of architecture projects ranging from residential villas,  residential towers, gated complexes to commercial & mixed-use projects.
+              He has worked on & lead the design of architecture projects
+              ranging from residential villas, residential towers, gated
+              complexes to commercial & mixed-use projects.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            He also has extensive experience in designing interiors of various hospitality projects, offices & residences pan-India.
+              He also has extensive experience in designing interiors of various
+              hospitality projects, offices & residences pan-India.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            His approach towards design is Client-Centric, Pragmatic & Synergistic.
+              His approach towards design is Client-Centric, Pragmatic &
+              Synergistic.
             </p>
             <p className="text-dark leading-relaxed font-normal">
-            He believes good design is a result of inspiration, research, deliberation & collaboration
+              He believes good design is a result of inspiration, research,
+              deliberation & collaboration
             </p>
           </div>
         </div>
