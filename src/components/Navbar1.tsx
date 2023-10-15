@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Navbar = () => {
+const Navbar1 = () => {
   const [isClick, setisClick] = useState(false);
   const toggleNavbar = () => {
     setisClick(!isClick);
@@ -12,6 +12,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   const [see, setSee] = useState(false);
 
+  console.log(show);
   return (
     <nav className="bg-transparent z-20 w-full">
       <div className="px-4 sm:px-6 lg:px-8 w-full">
@@ -42,9 +43,6 @@ const Navbar = () => {
               >
                 About
               </Link>
-              {/* <Link href='/design' className='text-white hover:text-red-600 rounded-lg p-2'>
-                            Our Work
-                        </Link> */}
               <div
                 className="relative"
                 onMouseOver={() => setShow(true)}
@@ -53,7 +51,7 @@ const Navbar = () => {
                 <button
                   id="dropdownDividerButton"
                   data-dropdown-toggle="dropdownDivider"
-                  className="text-white  hover:bg-black hover:bg-opacity-25 font-bold rounded-lg text-md text-center inline-flex items-center p-2"
+                  className="text-white hover:bg-black hover:bg-opacity-25 font-bold rounded-lg text-md text-center inline-flex items-center p-2"
                   type="button"
                 >
                   Our Work{" "}
@@ -76,25 +74,24 @@ const Navbar = () => {
                 {show && (
                   <div
                     id="dropdownDivider"
-                    className="absolute -mt-2 right-0 rounded-lg shadow"
+                    className="absolute -mt-2 right-0 shadow bg-red-700 text-white z-10 p-0 w-28"
                   >
                     <ul
-                      className="py-2 text-sm text-center"
+                      className=" text-sm text-center"
                       aria-labelledby="dropdownDividerButton"
                     >
                       <li>
                         <Link
                           href="/liasion"
-                          className="block px-4 py-2 text-white hover:bg-black hover:bg-opacity-25"
+                          className="block px-4 py-2 hover:bg-black hover:bg-opacity-25"
                         >
                           Liason
                         </Link>
                       </li>
-                      <hr />
                       <li>
                         <Link
                           href="/design"
-                          className="block px-4 py-2 text-white hover:bg-black hover:bg-opacity-25"
+                          className="block px-4 py-2 hover:bg-black hover:bg-opacity-25"
                         >
                           Designs
                         </Link>
@@ -212,6 +209,7 @@ const Navbar = () => {
                 >
                   Liasion
                 </Link>
+                <hr />
                 <Link
                   href="/design"
                   className="text-white hover:text-red-600 rounded-lg p-1"
@@ -251,4 +249,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar1;

@@ -2,7 +2,7 @@ import Design from "@/components/Design";
 import Image from "next/image";
 import React from "react";
 import Slider from "@/components/Slider";
-import Navbar from "@/components/Navbar";
+import Navbar1 from "@/components/Navbar1";
 
 const page = () => {
   const slides1 = ["/image2.jpeg"];
@@ -99,7 +99,7 @@ const page = () => {
 
   return (
     <div className="flex flex-col max-w-max">
-      <Navbar />
+      <Navbar1 />
       <div className="hidden md:block">
         <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides1} content={content1} />
