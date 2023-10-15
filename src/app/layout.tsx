@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black`}>
+      <body className={`${inter.className} bg-[url(https://res.cloudinary.com/dgccztjql/image/upload/v1697346840/products/cycorp/bg_final_zhnluy.jpg)] bg-cover`}>
         {/* <Navbar /> */}
         {children}</body>
     </html>

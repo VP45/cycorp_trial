@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react'
+import Image from 'next/image';
 
 const Navbar = () => {
     const [isClick, setisClick] = useState(false);
@@ -10,24 +11,24 @@ const Navbar = () => {
     }
     return (
     <nav className='bg-transparent z-20'>
-        <div className='w-[100vw] mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='w-[100vw] px-4 sm:px-6 lg:px-8'>
             <div className='flex items-center justify-between h-16'>
                 <div className='flex items-center'>
                     <div className='flex-shrink-0'>
                         <Link href="/" className='text-white'>
-                            Logo
+                            <Image src="/cycorp_final.png" alt="Logo" width={200} height={200}/>
                         </Link>
                     </div>
                 </div>
                 <div className='hidden md:block'>
-                    <div className='m1-4 flex items-center space-x-4'>
+                    <div className='m1-4 flex items-center space-x-4 font-bold'>
                         <Link href='/' className='text-white hover:text-red-600 rounded-lg p-2'>
                             Home
                         </Link>
                         <Link href='/about' className='text-white hover:text-red-600 rounded-lg p-2'>
                             About
                         </Link>
-                        <Link href='/work' className='text-white hover:text-red-600 rounded-lg p-2'>
+                        <Link href='/design' className='text-white hover:text-red-600 rounded-lg p-2'>
                             Our Work
                         </Link>
                         <Link href='/awards' className='text-white hover:text-red-600 rounded-lg p-2'>
@@ -84,7 +85,7 @@ const Navbar = () => {
                             About
                         </Link>
                         <hr />
-                        <Link href='/work' className='text-white hover:text-red-600 rounded-lg p-1'>
+                        <Link href='/design' className='text-white hover:text-red-600 rounded-lg p-1'>
                             Our Work
                         </Link>
                         <hr />
