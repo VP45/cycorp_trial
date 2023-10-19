@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       <div className="md:hidden">
-        <div className="relative flex flex-col h-screen bg-[url(https://res.cloudinary.com/dgccztjql/image/upload/v1697723974/products/cycorp/bg_coll_zjmgz4.jpg)] bg-contain">
+        <div className="relative flex flex-col h-screen bg-[url(https://res.cloudinary.com/dgccztjql/image/upload/v1697723974/products/cycorp/bg_coll_zjmgz4.jpg)] bg-cover bg-center bg-no-repeat">
           <div className="flex justify-center h-full">
             <Navbar />
             {/* <Image
