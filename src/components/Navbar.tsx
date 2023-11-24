@@ -124,6 +124,13 @@ const Navbar = () => {
               >
                 Real Inc
               </Link>
+              <Link
+                href="https://www.ymscl.in/"
+                target="_blank"
+                className="text-white hover:bg-black hover:bg-opacity-25 rounded-lg p-2"
+              >
+                YMSCL
+              </Link>
             </div>
           </div>
           <div className="md:hidden flex items-center">
@@ -242,6 +249,14 @@ const Navbar = () => {
               className="text-white hover:text-red-600 rounded-lg p-1"
             >
               Real Inc
+            </Link>
+            <hr />
+            <Link
+              href="https://www.ymscl.in/"
+              target="_blank"
+              className="text-white hover:text-red-600 rounded-lg p-1"
+            >
+              YMSCL
             </Link>
             <hr />
           </div>

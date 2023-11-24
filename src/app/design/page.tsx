@@ -5,8 +5,8 @@ import Slider from "@/components/Slider";
 import Navbar1 from "@/components/Navbar1";
 
 const page = () => {
-  const slides1 = ["/image2.jpeg"];
-  const slides2 = ["/image3.jpeg", "/image4.png", "/image5.png"];
+  const slides1 = ["/image2.jpeg,","/image3.jpeg", "/image4.png", "/image5.png"];
+  // const slides2 = ["/image3.jpeg", "/image4.png", "/image5.png"];
   const slides3 = ["/image6.jpg", "/image7.jpeg"];
   const slides4 = ["/image8.jpeg"];
   const slides5 = ["/image9.png", "/image10.jpeg"];
@@ -54,7 +54,7 @@ const page = () => {
     "/image66.jpeg",
   ];
   const content1 = "ZINNIA PRINCECARE | G+20 | MAHIM";
-  const content2 = "ZINNIA RRINCECARE | G+20 | MAHIM";
+  // const content2 = "ZINNIA RRINCECARE | G+20 | MAHIM";
   const content3 = "SUKRUT TECHNO | G+18 | SHIVAJI PARK TECHNO";
   const content4 = "TULASI TECHNO | G+19 | MULUND";
   const content5 = "MEHTA RESIDENCY | G+18 | SION";
@@ -103,82 +103,96 @@ const page = () => {
       <div className="hidden md:block">
         <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides1} content={content1} />
-          <Slider slides={slides2} content={content2} />
+          {/* <Slider slides={slides2} content={content2} /> */}
           <Slider slides={slides3} content={content3} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides4} content={content4} />
           <Slider slides={slides5} content={content5} />
           <Slider slides={slides6} content={content6} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides7} content={content7} />
           <Slider slides={slides8} content={content8} />
           <Slider slides={slides9} content={content9} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides10} content={content10} />
           <Slider slides={slides11} content={content11} />
           <Slider slides={slides12} content={content12} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides13} content={content13} />
           <Slider slides={slides14} content={content14} />
           <Slider slides={slides15} content={content15} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides16} content={content16} />
           <Slider slides={slides17} content={content17} />
           <Slider slides={slides18} content={content18} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides19} content={content19} />
           <Slider slides={slides20} content={content20} />
           <Slider slides={slides21} content={content21} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides22} content={content22} />
           <Slider slides={slides23} content={content23} />
           <Slider slides={slides24} content={content24} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides25} content={content25} />
           <Slider slides={slides26} content={content26} />
           <Slider slides={slides27} content={content27} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides28} content={content28} />
           <Slider slides={slides29} content={content29} />
           <Slider slides={slides30} content={content30} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides31} content={content31} />
           <Slider slides={slides32} content={content32} />
           <Slider slides={slides33} content={content33} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides34} content={content34} />
           <Slider slides={slides35} content={content35} />
           <Slider slides={slides36} content={content36} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides37} content={content37} />
           <Slider slides={slides38} content={content38} />
           <Slider slides={slides39} content={content39} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides40} content={content40} />
           <Slider slides={slides41} content={content41} />
           <Slider slides={slides42} content={content42} />
-        </div>
-        <div className="grid grid-cols-3 w-[100vw]">
           <Slider slides={slides43} content={content43} />
         </div>
+        {/* <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div>
+        <div className="grid grid-cols-3 w-[100vw]">
+          
+        </div> */}
       </div>
       <div className="md:hidden">
         <div className="flex flex-col w-[100vw]">
           <Slider slides={slides1} content={content1} />
-          <Slider slides={slides2} content={content2} />
+          {/* <Slider slides={slides2} content={content2} /> */}
           <Slider slides={slides3} content={content3} />
           <Slider slides={slides4} content={content4} />
           <Slider slides={slides5} content={content5} />

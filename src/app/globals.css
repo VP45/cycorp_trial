@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@property --num {
+/* @property --num {
     syntax: '<integer>';
     initial-value: 0;
     inherits: false;
@@ -13,4 +13,4 @@
     to {
         --num: 17;
     }
-}    
+}     */
