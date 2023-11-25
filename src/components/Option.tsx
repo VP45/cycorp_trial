@@ -4,8 +4,9 @@ import { StaticImageData } from 'next/image';
 type MarkerProps = {
     lng: number,
     lat: number,
-    sites: number,
-    name: string,
+    area: string,
+    client: string,
+    desc: string,
     img?: StaticImageData,
     company?: string,
     label?: string,
@@ -15,19 +16,29 @@ type MarkerProps = {
 export default function Option({ marker }: { marker: MarkerProps }) {
     return (
         <div
-            className='w-[200px]'
+            className='w-[300px]'
         >
-            <div
-                className='absolute bottom-1 right-1 bg-red-500/70 w-8 h-8 flex justify-center items-center text-white text-xl font-bold z-10 rounded-full'
+            {/* <div
+                className='absolute bottom-1 right-2  w-[120px] h-8 flex justify-center items-center text-red-600 text-xl font-bold z-10'
             >
                 {
-                    marker?.sites || 0
-                }
-            </div>
+                    marker?.area || 0
+                }sq.ft.
+            </div> */}
             <img src={marker?.img?.src} className="w-full object-cover" alt="" />
-            <p className='line-clamp-2 w-full text-black text-base mt-4'>{
-                marker?.name + ` (${marker?.company})`
+            <p className=' w-full text-black font-bold text-base mt-4'>{
+                marker?.client
             }</p>
+            <p className=' w-full text-black text-base'>
+            {
+                marker?.desc
+            }
+            </p>
+            <p className=' w-full text-red-700 text-base'>
+            {
+                    marker?.area || 0
+                }sq.ft.
+            </p>
         </div>
 
     );
