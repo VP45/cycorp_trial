@@ -111,12 +111,13 @@ const Navbar = () => {
                 Accolades
               </Link>
               <Link
-                href="https://stallion.build/"
+                href="https://www.ymscl.in/"
                 target="_blank"
                 className="text-white hover:bg-black hover:bg-opacity-25 rounded-lg p-2"
               >
-                Stallion
+                YMSCL
               </Link>
+              
               <Link
                 href="https://www.realinc.in/"
                 target="_blank"
@@ -125,12 +126,13 @@ const Navbar = () => {
                 Real Inc
               </Link>
               <Link
-                href="https://www.ymscl.in/"
+                href="https://stallion.build/"
                 target="_blank"
                 className="text-white hover:bg-black hover:bg-opacity-25 rounded-lg p-2"
               >
-                YMSCL
+                Stallion
               </Link>
+              
             </div>
           </div>
           <div className="md:hidden flex items-center">
@@ -236,12 +238,13 @@ const Navbar = () => {
             </Link>
             <hr />
             <Link
-              href="https://stallion.build/"
+              href="https://www.ymscl.in/"
               target="_blank"
               className="text-white hover:text-red-600 rounded-lg p-1"
             >
-              Stallion
+              YMSCL
             </Link>
+            
             <hr />
             <Link
               href="https://www.realinc.in/"
@@ -252,11 +255,11 @@ const Navbar = () => {
             </Link>
             <hr />
             <Link
-              href="https://www.ymscl.in/"
+              href="https://stallion.build/"
               target="_blank"
               className="text-white hover:text-red-600 rounded-lg p-1"
             >
-              YMSCL
+              Stallion
             </Link>
             <hr />
           </div>
